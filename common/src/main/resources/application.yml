@@ -1,0 +1,4 @@
+spring:
+  #配置路径，从messages目录下获取
+  messages:
+    basename:i18n/messages
