@@ -1,4 +1,4 @@
-package com.pang.rabbitmq;
+package com.pang.simple;
 
 import com.pang.utils.ConnectionUtil;
 import com.rabbitmq.client.Channel;
