@@ -16,7 +16,6 @@ import java.util.concurrent.TimeoutException;
  * 自动ack有个问题，如果消费者有异常，消息也会被消费掉。
  * 改为手动并将异常去掉后，消息的状态变成Unacked，关闭这个消费者，状态就变回ready
  */
-
 public class Recv {
 
   private final static String QUEUE_NAME="simple_queue";
@@ -42,7 +41,7 @@ public class Recv {
         System.out.println(" [x] received : " + msg + "!");
       }
     };
-    // 监听队列，第二个参数：是否自动进行消息确认。
+    // 监听队列，第二个参数：是否自动进行消息确认，false为手动、true为自动。
     channel.basicConsume(QUEUE_NAME, false, consumer);
   }
 }

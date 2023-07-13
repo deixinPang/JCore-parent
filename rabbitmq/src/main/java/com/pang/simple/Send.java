@@ -9,7 +9,7 @@ import java.util.concurrent.TimeoutException;
 /**
  * @Author pangdexin
  * @Date 2023/7/11 17:25
- * @Description: TODO
+ * @Description: 发送单条消息到队列
  */
 public class Send {
 

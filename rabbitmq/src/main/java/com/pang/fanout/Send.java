@@ -9,7 +9,10 @@ import java.util.concurrent.TimeoutException;
 /**
  * @Author pangdexin
  * @Date 2023/7/12 14:20
- * @Description: TODO
+ * @Description:
+ * 生产者
+ * 1） 声明Exchange，不再声明Queue
+ * 2） 发送消息到Exchange，不再发送到Queue
  */
 
 public class Send {

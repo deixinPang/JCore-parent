@@ -11,7 +11,6 @@ import java.util.concurrent.TimeoutException;
  * @Date 2023/7/12 13:25
  * @Description: 发50条消息
  */
-
 public class Send {
   private final static String QUEUE_NAME="work_queue";
 
